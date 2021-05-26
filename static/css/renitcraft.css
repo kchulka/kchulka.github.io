@@ -1,99 +1,105 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
 
 body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #171717;
-    padding-top: 4em;
-}
-
-.container {
     animation: fadeIn 3s;
+    padding: 0;
+    margin: 0;
+    background: url('../img/photo-1524169358666-79f22534bc6e.jpg');
+    background-size: 150% 150%;
+    animation: gradient 15s ease infinite;
 }
 
-.material-icons {
-    vertical-align: text-bottom;
+.content {
+    position: relative;
 }
 
-.back-menu {
-    background-color: transparent;
-    color: white;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    padding: 0.3em 1em;
+.image {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 25px;
+    width: 210px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.3));
+    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.3));
+}
+
+.content h1 {
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+.content h3 {
+    padding-bottom:35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
     font-weight: 600;
+    max-width: 400px;
+    color: #e3e3e3;
 }
 
-.back-menu a {
-    color: white;
+.links {
+    text-align: center;
 }
 
-.back-menu a:hover {
+.link {
+    background-color: #FFB954;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     color: white;
     text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 0.2em;
+    display: block;
+    width: 100px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    display: inline-block
 }
 
-.heading {
-    font-family: 'Open Sans', sans-serif;
-    padding-bottom: 3em;
+.link:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+
 }
 
-.heading h1 {
-    color: white;
-    font-size: 1.8em;
-    font-weight: 600;
+.github {
+    background-color: #353535;
 }
 
-.heading h3 {
-    color: #C0C0C0;
-    font-size: 1.2em;
-    font-weight: 600;
-    padding-bottom: 1em;
+.discord {
+    background-color: #7289DA;
 }
 
-.table {
-    font-family: 'Open Sans', sans-serif;
-    color: white;
+.roblox {
+    background-color: #F22D2D;
 }
 
-.ci-link {
-    padding-left: 0.9em;
+.renitcraft {
+    background-color: #FFAA00;
 }
 
-.builds {
-    padding: 1em;
+.stats {
+    background-color: #404040;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 16em;
+    bottom: -5em;
+    padding: 0.1em 0.1em;
+    height: 1.6em;
     border-radius: 0.3em;
-    background-color: #292929;
-}
-
-.download-button {
-    background-color: #59d983;
-    padding: 0.2em 1em;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.1em;
-    border-radius: 0.3em;
-}
-
-.download-button:hover {
-    text-decoration: none;
-    color: white;
-    background-color: #52bf75;
-    cursor: pointer;
-}
-
-.stable {
-    padding: 1.5em 2em;
-    border-radius: 0.3em;
-    background-color: #292929;
-    margin-bottom: 2em;
-}
-
-.stable h1 {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 1.4em;
 }
 
 @keyframes fadeIn {
@@ -105,4 +111,20 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+body {
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
