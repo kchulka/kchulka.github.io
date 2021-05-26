@@ -71,10 +71,7 @@ body {
 
 .link:hover {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
-}
 
-.roblox {
-    background-color: #F22D2D;
 }
 
 .github {
@@ -83,6 +80,10 @@ body {
 
 .discord {
     background-color: #7289DA;
+}
+
+.roblox {
+    background-color: #F22D2D;
 }
 
 .renitcraft {
