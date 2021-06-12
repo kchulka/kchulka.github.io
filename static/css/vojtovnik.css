@@ -10,7 +10,7 @@ body {
     animation: fadeIn 3s;
     padding: 0;
     margin: 0;
-    background: url('../img/pexels-photo-257360.jpeg');
+    background: url('../img/pozadiprovojtovnika.jpg');
     background-size: 150% 150%;
     animation: gradient 15s ease infinite;
 }
@@ -82,8 +82,28 @@ body {
     background-color: #7289DA;
 }
 
+.instagram {
+    background-color: #E1306C;	
+}
+
 .roblox {
     background-color: #F22D2D;
+}
+
+.twitch {
+    background-color: #6441A4;	
+}
+
+.twitter {
+    background-color: #1DA1F2;	
+}
+
+.youtube {
+    background-color: #FF0000;
+}
+
+.messenger {
+    background-color: #37D0FC;
 }
 
 .renitcraft {
