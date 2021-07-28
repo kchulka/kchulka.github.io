@@ -15,11 +15,6 @@
     <meta name="author" content="No řekněme že jsem si tento kód trochu vypůjčil :D">
     <meta name="og:image" content="https://kchulka.github.io/static/img/kchulka.png">
     <meta name="theme-color" content="#59d983">
-	
-    <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
-    <script type="text/javascript" src="static/js/dist/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="static/js/dist/clipboard.min.js"></script>
-    <script type="text/javascript" src="static/js/main.js"></script>
 
 </head>
 
